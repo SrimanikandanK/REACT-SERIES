@@ -12,6 +12,8 @@ const UseState=() => {
     <>
     <h1>Counter: {count}</h1>
     <button onClick={increaseCounter}>Increase</button>
+
+    <button onClick={() => setCount((curr)=> curr + 1)}>Add</button> {/* Another method */}
     </>
   )
 }
